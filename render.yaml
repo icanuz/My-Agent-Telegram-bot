@@ -19,5 +19,9 @@ services:
         sync: false
       - key: ALLOWED_CHAT_IDS
         sync: false
+      - key: ADMIN_CONTACT
+        sync: false
+      - key: AI_ENABLED
+        value: "1"
       - key: GEMINI_MODEL
         value: gemini-2.5-flash
